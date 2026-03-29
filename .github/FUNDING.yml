@@ -1,1 +1,8 @@
+# .github/FUNDING.yml
 
+github: [your-github-username]          # GitHub Sponsors
+patreon: your-patreon-username          # Optional
+open_collective: your-collective        # Optional
+ko_fi: your-kofi-username               # Optional
+buy_me_a_coffee: your-bmac              # Optional
+custom: ["https://paypal.me/yourusername", "https://buymeacoffee.com/yourusername"]
