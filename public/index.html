@@ -1,0 +1,9 @@
+<button onclick="checkout()">Pay $19.99 for Premium Access</button>
+
+<script>
+async function checkout() {
+  const response = await fetch('/create-checkout-session', { method: 'POST' });
+  const { url } = await response.json();
+  window.location.href = url;
+}
+</script>
